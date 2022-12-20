@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+/*font name :  League Spartan   */
+body{
+    font-family: league spartan;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15px;
+}
+#topside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+#paratop{
+    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+    width: 400px;
+    margin-top: 0px;
+    line-height: 22px;
+}
+.staricon{
+    scale: 0.9;
+    margin-top: -3px;
+    margin-left: 6px;
+}
+.star1{
+    margin-left: 30px;
+}
+h4{
+    margin-left: 35px;
+}
+.rating{
+    border-radius: 10px;
+    width: 400px;
+    background-color:  hsl(300, 24%, 96%);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 55px;
+}
+.rating1{
+    margin-top: 10px;
+    margin-right: 90px;
+    margin-left: auto;
+}
+.rating2{
+    margin-left: auto;
+    margin-right: 45px;
+}
+.rating3{
+    margin-left: auto;
+    margin-right: 0px;
+}
+h1,h4{
+    color: hsl(300, 43%, 22%);
+}
+article{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+section{
+    width: 25%;
+    height: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color :hsl(300, 43%, 22%);
+}
+#section2{
+    margin-top: 20px;
+}
+#section3{
+    margin-top: 40px;
+}
+.writer{
+    display: flex;
+}
+h5{
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+h6{
+    margin: 0px;
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.profilimg{
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.review{
+    margin-top: 25px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+@media screen and (width<500px) {
+    body{
+        padding: 10px;       
+        font-size: 15px;
+    }
+    #topside{
+        display: block;
+        height: 100%;
+  
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #paratop{
+        font-weight: 500;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+        line-height: 22px;
+    }
+    .staricon{
+        scale: 1;
+        margin-top: -3px;
+        margin-left: 6px;
+         
+    }
+    .star1{
+        margin-left: 0px;
+    }
+    h4{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .rating{
+        padding-top: 15px;
+        text-align: center;
+        display: block;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 15px;
+       
+    }
+    .rating1{
+        margin-top: 10px;
+        margin-right: 90px;
+        margin-left: auto;
+    }
+    .rating2{
+        margin-left: auto;
+        margin-right: 45px;
+    }
+    .rating3{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        
+    }
+    section{
+        width: 80%;
+        height: auto;
+        padding: 10%;
+        padding-top: 40px;
+        border-radius: 10px;
+    }
+    #section2{
+        margin-top: 20px;
+    }
+    #section3{
+        margin-top: 20px;
+    }
+    .writer{
+        display: flex;
+    }
+    h5{
+        font-size: 16px;
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+  
+    .profilimg{
+        width: 40px;
+        border-radius: 20px;
+        margin-right: 20px;
+    }
+    .review{
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    
+}
